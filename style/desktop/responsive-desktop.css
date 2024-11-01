@@ -1,0 +1,146 @@
+@media screen and (min-width:931px) and (max-width:990px) {
+    nav {
+        padding: 1.2em 0.5em !important;
+    }
+
+    main {
+        width: 99vw !important;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media screen and (min-width: 931px) and (max-width:1071px) {
+    #svgDesktop{
+       width: 55vw;
+       height: auto;
+         }
+}
+
+@media screen and (min-width: 931px) and (max-width:1035px){
+    #partage-paginnation {
+        margin: 1em;
+        position: absolute;
+        /* background: yellow !important; */
+        color: #fff;
+        top: 12.5em;
+        left: 10% !important;
+        padding: 0.5em 1.1em;
+        border-radius: 0.8em;
+    }
+
+
+}
+@media screen and (min-width: 1036px) and (max-width:1071px){
+    #partage-paginnation {
+        margin: 1em;
+        position: absolute;
+        /* background: green !important; */
+        color: #fff;
+        top: 12.5em;
+        left: 12% !important;
+        padding: 0.5em 1.1em;
+        border-radius: 0.8em;
+    }
+
+
+}
+@media screen and (min-width: 931px) and (max-width:1071px) {
+    nav {
+        padding: 1.2em 1em;
+    }
+
+    /* nav section {
+
+    } */
+
+    main {
+        width: 96vw !important;
+        margin: 0 auto;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 1071px) and (max-width:1155px) {
+    /* nav {
+        padding: 1.2em 1em;
+    } */
+
+    /* nav section {
+
+    } */
+
+    main {
+        width: 93vw !important;
+        margin: 0 auto;
+    }
+
+    
+    #column2{
+        /* background: silver; */
+      width:30% !important;
+    }
+
+    #partage-paginnation {
+        margin: 1em;
+        position: absolute;
+        /* background: blue !important; */
+        color: #fff;
+        top: 12.5em;
+        left: 13% !important;
+        padding: 0.5em 1.1em;
+        border-radius: 0.8em;
+    }
+
+}
+
+@media screen and (min-width: 1156px) and (max-width:1277px) {
+
+    nav section {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    main {
+        width: 96vw !important;
+        margin: 0 auto;
+    }
+
+    #column2{
+        /* background: silver; */
+      width:30% !important;
+    }
+
+}
+
+@media screen and (min-width: 1156px) and (max-width:1310px){
+    nav {
+            padding: 1.2em 1em;
+    }
+}
+
+@media screen and (min-width: 1278px) {
+
+    nav section {
+        width: 79em !important;
+        margin: 0 auto;
+    }
+
+    main {
+        width: 79em !important;
+        margin: 0 auto;
+    }
+
+    #column1{
+        min-width: 70% !important;
+      }
+      #column2{
+        /* background: silver; */
+      min-width: 10vw !important;
+    }
+
+}
