@@ -144,6 +144,7 @@
         width: 100%;
         margin-top: 3.5em !important;
     }
+
     #list-visite-mobile {
         display: block !important;
     }
@@ -162,14 +163,42 @@
     }
 
 
-    #modifier-mobile{
+    #modifier-mobile {
         display: block !important;
         margin-top: 3em !important;
     }
+
     #modifier-mobile button {
         width: 100%;
         text-align: center;
         justify-content: center !important;
+    }
+
+
+    #nav-section article {
+        display: flex;
+        gap: 0em !important;
+        justify-content: space-between !important;
+        overflow: visible !important;
+        width: 100%;
+    }
+
+
+    .underline-active-follower {
+        width: 8.5em !important;
+        outline: none !important;
+    }
+
+    #nav-section article p {
+        padding: 0.9em !important;
+        width: 100%;
+        text-wrap: wrap !important;
+        font-size: 0.9em !important;
+    }
+
+    #nav-section {
+        width: 100%;
+        margin-top: 3.5em !important;
     }
 
     /* PROFILE */
