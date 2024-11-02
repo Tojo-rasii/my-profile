@@ -51,12 +51,13 @@ main {
     color: teal;
     border-radius: 1.3em;
     padding: 1em 1.2em;
-    scale: 0.9;
+    scale: 1;
     margin: 2em;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 0.5em;
+    align-items: center !important;
+    font-size: 0.7em;
+    gap: 0.6em;
 }
 
 .btn-cam-mobile{
@@ -65,7 +66,7 @@ main {
     right: 0;
     top: 0;
     z-index: 9999;
-    margin: 2em;
+    margin: 1.5em;
 }
 
 /* DETAILS PROFILE */
@@ -119,7 +120,8 @@ main {
     width: max-content;
     display: flex;
     flex-direction: row;
-    gap: 0.4em;
+    /* background: red; */
+    gap: 0.3em;
 }
 
 #picture-info-star{
@@ -130,15 +132,18 @@ main {
 }
 #picture-info-star p:nth-child(1){
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.9em;
+    margin-top: 0.3em;
     font-family: 'inter';
 }
 #picture-info-star p:nth-child(2){
    font-size: 1em;
+   margin-bottom: 0.9em;
+   font-weight: 500;
 }
 #star-rate i{
     color: #F9C66E;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 #star-rate i:last-child{
     color: #D9D9D9;
@@ -237,6 +242,16 @@ main {
     font-weight: 600;
 }
 
+.mt-6{
+    margin-top: 2em;
+    font-weight: 500 !important;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 3em !important;
+}
+
 
 
   /* ARTICLE TEXT */
@@ -304,8 +319,9 @@ border-bottom: 1px solid #000000;
   #mobile-details-profile{
     width: 100%;
     display: none;
-    margin-top: -2em;
-    margin-bottom: 2em;
+    margin-top: -3.5em;
+      margin-bottom: 2.5em;
+      font-family: 'inter';
   }
   #mobile-details-profile article{
     display: flex;

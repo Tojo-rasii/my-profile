@@ -140,7 +140,10 @@
         display: block !important;
     }
 
-
+    #nav-section {
+        width: 100%;
+        margin-top: 3.5em !important;
+    }
     #list-visite-mobile {
         display: block !important;
     }
