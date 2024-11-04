@@ -187,10 +187,11 @@
     .underline-active-follower {
         width: 8.5em !important;
         outline: none !important;
+        padding: 1.8px !important;
     }
 
     #nav-section article p {
-        padding: 0.9em !important;
+        padding: 0.95em !important;
         width: 100%;
         text-wrap: wrap !important;
         font-size: 0.9em !important;
